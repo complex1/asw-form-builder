@@ -1,0 +1,24 @@
+{
+  "name": "asw-form-builder",
+  "version": "1.0.0",
+  "description": "For fast builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/complex1/asw-form-builder.git"
+  },
+  "keywords": [
+    "form",
+    "vue",
+    "json"
+  ],
+  "author": "shubham maurya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/complex1/asw-form-builder/issues"
+  },
+  "homepage": "https://github.com/complex1/asw-form-builder#readme"
+}
