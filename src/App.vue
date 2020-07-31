@@ -7,7 +7,7 @@
         <json-viewer :value="allJson"></json-viewer>
       </div>
       <div class="mid-panel">
-        <form-builder :data="exampleForm"/>
+        <form-builder :data="exampleForm" @ClickAction="ClickAction"/>
       </div>
       <div class="right-panel p">
         <h3>Form Body</h3>
@@ -31,6 +31,11 @@ export default {
     return {
       allJson,
       exampleForm
+    }
+  },
+  methods: {
+    ClickAction (e) {
+      alert(JSON.stringify(e))
     }
   }
 }

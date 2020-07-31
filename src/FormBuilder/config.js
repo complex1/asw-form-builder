@@ -1,5 +1,6 @@
 export default {
   blankForm: {
+    id: '',
     action_bar: {
       style: {
         textAlign: 'right',
@@ -28,13 +29,16 @@ export default {
     size: 16,
     direction: 'block',
     component: 'ele_container',
+    id: '',
     elements: []
   },
   form_text: {
+    id: '',
     component: 'form_text',
     text: "<h1>shubham</h1>"
   },
   text: {
+    id: '',
     component: 'input_text',
     label: 'label',
     sublabel: 'efrver erve',
@@ -46,6 +50,7 @@ export default {
     value: ''
   },
   textarea: {
+    id: '',
     component: 'input_textarea',
     label: 'label',
     sublabel: 'efrver erve',
@@ -57,6 +62,7 @@ export default {
     value: ''
   },
   number: {
+    id: '',
     component: 'input_number',
     label: 'label',
     sublabel: 'efrver erve',
@@ -70,6 +76,7 @@ export default {
     value: ''
   },
   checkbox: {
+    id: '',
     component: 'input_checkbox',
     label: 'label',
     sublabel: '',
@@ -79,6 +86,7 @@ export default {
     value: ''
   },
   date: {
+    id: '',
     component: 'input_date',
     label: 'label',
     sublabel: '',
@@ -89,6 +97,7 @@ export default {
     value: []
   },
   dropdown: {
+    id: '',
     component: 'input_dropdown',
     label: 'label',
     sublabel: '',
@@ -100,6 +109,7 @@ export default {
     value: []
   },
   multiselect: {
+    id: '',
     component: 'input_multiselect',
     label: 'label',
     sublabel: '',
@@ -111,6 +121,7 @@ export default {
     value: []
   },
   password: {
+    id: '',
     component: 'input_password',
     label: 'label',
     sublabel: '',
@@ -122,6 +133,7 @@ export default {
     value: []
   },
   radio: {
+    id: '',
     component: 'input_radio',
     label: 'label',
     sublabel: '',
@@ -133,6 +145,7 @@ export default {
     value: []
   },
   time: {
+    id: '',
     component: 'input_time',
     label: 'label',
     sublabel: '',
