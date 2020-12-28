@@ -1,6 +1,6 @@
 {
   "name": "asw-form-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "For fast builder",
   "main": "index.js",
   "scripts": {
