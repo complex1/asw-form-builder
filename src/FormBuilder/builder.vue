@@ -109,8 +109,9 @@ export default {
       font-size: 1em;
       line-height: 1.5;
       border-radius: .25em;
-      margin-right: 15px;
-      margin-left: 15px;
+      & ~ & {
+        margin-left: 5px;
+      }
     }
   }
 }
